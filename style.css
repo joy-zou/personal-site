@@ -13,7 +13,7 @@ img {
 }
 
 img:hover {
-    filter: invert(89%) sepia(31%) saturate(494%) hue-rotate(25deg) brightness(103%) contrast(84%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1444%) hue-rotate(311deg) brightness(105%) contrast(120%);
 }
 
 h1 {
@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: #CFEB94;
+    color: #ffe57d;
 }
 
 .wrapper {
@@ -62,14 +62,9 @@ a:hover {
     margin: 0 1rem;
 }
 
-content {
+.content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.main-text {
     margin-left: 5%;
     margin-right: 5%;
     z-index: 2;
@@ -86,11 +81,6 @@ content {
     width: 47%;
 }
 
-.box2 {
-    border: 2px dotted white;
-    padding: 15px;
-}
-
 .links {
     display: flex;
     justify-content: center;
@@ -101,7 +91,7 @@ content {
     align-items: center;
 }
 
-#work {
+.box2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
